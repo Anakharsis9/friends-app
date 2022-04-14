@@ -1,0 +1,1 @@
+const o="friends-app::access_token",s="friends-app::user_id";function n(e,t){localStorage.setItem(o,e),localStorage.setItem(s,t)}function r(){const e=localStorage.getItem(o),t=localStorage.getItem(s);return e&&t?{access_token:e,user_id:t}:null}function a(){localStorage.removeItem(o),localStorage.removeItem(s)}export{a as d,r as g,n as s};
