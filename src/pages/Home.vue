@@ -82,7 +82,7 @@ async function getFriends() {
         access_token: userInfo.value.access_token,
         user_id: userInfo.value.user_id,
         order: "name",
-        count: 5,
+        // count: 5,
         fields: "first_name,last_name,photo_100,nickname",
       },
     }
